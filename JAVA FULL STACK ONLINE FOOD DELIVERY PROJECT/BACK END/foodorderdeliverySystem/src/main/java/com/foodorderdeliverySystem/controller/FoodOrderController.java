@@ -14,6 +14,7 @@ import com.foodorderdeliverySystem.entity.FoodOrder;
 import com.foodorderdeliverySystem.service.FoodOrderService;
 
 @RestController
+	@CrossOrigin(origins="http://localhost:4200")
 public class FoodOrderController {
 	
 	 @Autowired
