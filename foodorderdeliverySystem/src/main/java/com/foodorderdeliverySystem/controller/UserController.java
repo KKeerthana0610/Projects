@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.foodorderdeliverySystem.entity.User;
 import com.foodorderdeliverySystem.service.UserService;
 @RestController
-	@CrossOrigin(origins="http://localhost:4200")
  class UserController {
 		@Autowired
 	UserService userService;
